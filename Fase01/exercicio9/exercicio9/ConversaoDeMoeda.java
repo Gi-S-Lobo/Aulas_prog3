@@ -27,14 +27,14 @@ public class ConversaoDeMoeda
 	 	//Moeda em tempo real
 	
 		String chaveApi = "2476e5edd80e939c4c09448d";
-        String url = "https://v6.exchangerate-api.com/v6/" + chaveApi + "/latest/BRL";
+        	String url = "https://v6.exchangerate-api.com/v6/" + chaveApi + "/latest/BRL";
         
-        HttpClient cliente = HttpClient.newHttpClient();
-       	HttpRequest pedido = HttpRequest.newBuilder().uri(URI.create(url)).build();
+       		HttpClient cliente = HttpClient.newHttpClient();
+       		HttpRequest pedido = HttpRequest.newBuilder().uri(URI.create(url)).build();
        	
-       	HttpResponse<String> resposta = cliente.send(pedido, HttpResponse.BodyHandlers.ofString());
+       		HttpResponse<String> resposta = cliente.send(pedido, HttpResponse.BodyHandlers.ofString());
         
-        Scanner sc = new Scanner(System.in);
+        	Scanner sc = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("#.00");
 		
 		System.out.print("Digite o valor em reais:");
