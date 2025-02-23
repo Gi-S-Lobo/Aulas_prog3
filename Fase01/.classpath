@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="exercicio1"/>
+	<classpathentry kind="src" path="exercicio10"/>
+	<classpathentry kind="src" path="exercicio2"/>
+	<classpathentry kind="src" path="exercicio3"/>
+	<classpathentry kind="src" path="exercicio4"/>
+	<classpathentry kind="src" path="exercicio5"/>
+	<classpathentry kind="src" path="exercicio6"/>
+	<classpathentry kind="src" path="exercicio7"/>
+	<classpathentry kind="src" path="exercicio8"/>
+	<classpathentry kind="src" path="exercicio9"/>
+	<classpathentry kind="lib" path="C:/Users/siget/Downloads/json-20250107.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
