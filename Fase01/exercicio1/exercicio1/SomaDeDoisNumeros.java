@@ -8,6 +8,7 @@ public class SomaDeDoisNumeros
 	/* 
 	  	1. Soma de Dois Números
 		Escreva um programa que solicite ao usuário dois números inteiros e exiba a soma deles.
+		(fiz uma mudança pelo eclipse)
 	*/
 	
 	public static void main(String[] args)
