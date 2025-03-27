@@ -1,5 +1,8 @@
 package exercicio4;
 
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
 public class MediaNotas {
 
 	/*
@@ -16,7 +19,30 @@ public class MediaNotas {
 	 */
 	public static void main(String[] args) {
 		
-
+		System.out.println("MEDIA DAS NOTAS");
+		
+		Scanner sc = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("#.00");
+		
+		System.out.print("Qual é a quantidade de alunos?");
+		int qtde = sc.nextInt();
+		
+		double soma = 0.0;
+		
+		for(int i = 0; i < qtde; i++) {
+			
+			System.out.print("Digite um número:");
+			double nota = sc.nextDouble();
+			
+			soma+=nota;
+		}
+		
+		double media = 0.0;
+		
+		media = soma/qtde;
+		
+		System.out.println("A média das notas é" + df.format(media));
+		
 	}
 
 }
