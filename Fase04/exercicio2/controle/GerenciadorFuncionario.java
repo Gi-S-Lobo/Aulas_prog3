@@ -17,7 +17,6 @@ public class GerenciadorFuncionario {
         ▪ calcularSalarioFinal(): adiciona um bônus ao salário base:
         ▪ "A" → +20%
         ▪ "B" → +10%
-
         ▪ "C" → sem bônus
 
         2. Criar o pacote controle contendo a classe GerenciadorFuncionario:
